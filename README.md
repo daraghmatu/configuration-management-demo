@@ -9,3 +9,28 @@ This project demonstrates:
 - Python 3.9+
 - Docker (optional, for containerization)
 
+### Steps to Demo
+
+1. Run Locally
+   - Run the app
+		python app.py
+   
+   - Run tests locally
+		python -m unittest discover
+
+2. Push to GitHub
+   - Push the project to a GitHub repository.
+   - Check the Actions tab in GitHub to see the workflow running automatically.
+
+3. Run in Docker
+
+	build
+		docker build -t config-manag-demo-app .
+		
+	run in WSL
+		docker run -it simple-python-app
+		
+	run in cmd
+		docker run -it simple-python-app
+		show that python is not installed in windows
+			python -V
