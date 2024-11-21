@@ -28,9 +28,9 @@ This project demonstrates:
 		docker build -t config-manag-demo-app .
 		
 	run in WSL
-		docker run -it simple-python-app
+		docker run -it config-manag-demo-app
 		
 	run in cmd
-		docker run -it simple-python-app
+		docker run -it config-manag-demo-app
 		show that python is not installed in windows
 			python -V
